@@ -6,7 +6,9 @@ body {
   padding: 20px;
   margin: 20px;
   font-weight: 400;
-  color: black
+  color: black;
+  border-width: medium;
+    
 }
 
 .skyblue {
@@ -23,10 +25,12 @@ body {
 .white{
 	background: white;
     width: auto;
+    max-height: inherit;
 }
 img {
     width: 35%;
     float: left;
+    
 }
 
 .img_1{
@@ -67,3 +71,8 @@ p{
     margin-left: 40px;
 }
 
+
+table {
+    width: auto;
+    background-color: white;
+}
