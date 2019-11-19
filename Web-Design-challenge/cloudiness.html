@@ -1,0 +1,77 @@
+<!DOCTYPE html> 
+<html = "en">
+
+
+<head> 
+	<meta charset= "UTF-8"> 
+	<title> Visualization Dashboard</title>
+
+
+	<!-- <link rel = "stylesheet" href = "styles.css"> -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="stylesheet" href="styles.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    
+    
+
+
+</head>
+
+<body>
+	<nav class = "navbar navbar-expand-lg bg-light">
+			<a class = "navbar-brand" href= "index.html"> Latitude </a>
+			<button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#navbarSupportedContent" aria-controls = "navbarSupportedContent" aria-expanded = "False" aria-label = "Toggle navigation">
+				<span class = "navbar-toggler-icon"></span>
+			</button>
+
+		  <ul class="navbar-nav ml-auto">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div  class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+          <a class="dropdown-item" href="humidity.html">Humidity</a>
+          <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+          <a class="dropdown-item" href="wind.html">Wind Speed</a>
+            
+        </div>
+
+         <a class="nav-link" href="comp.html">Comparison<span class="sr-only">(current)</span></a>
+         <a class="nav-link" href="data_2.html">Data<span class="sr-only">(current)</span></a>
+
+
+     </ul>
+    </nav>
+    <div class="container">
+   <!--  Normally these medium columns go full wide on small screen sizes -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="box white">
+            <h2>
+                Comparison: Latitude vs. X
+            </h2>
+             <hr class="style1">
+            
+            <div class = "row">
+                <div class = "col-md-12">
+                    <h3> vs. Max Cloudiness </h3>
+                    <img src = "Fig3.png" class = "img_2"/>
+                </div>
+                <div class = "row">
+                    <div class = "col-md-11>">
+                    <p>
+                    Taking a look at the data above you can see that outside of (0) cloudiness percentage most of the cloud form in the north hemisphere.  This could be accounted for places like the United Kingdom which has one of the highest rates of cloud protection in the world.  Other palces like Iceland and Ireland can account fo this change. The further you get away from the equator the more likely you will see clouds because there is less energy and heat to disrupt the water cycle. 
+                    The data is not perfect because it only takes into account cities, most of the cities selected at a random will come from the northern hemisphere of the planet.  
+                
+                    </p>
+                    </div>
+                </div>
+                </div>
+
+ 
+    </body>
+</html>
